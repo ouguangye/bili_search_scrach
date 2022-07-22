@@ -23,6 +23,7 @@ https://api.bilibili.com/x/web-interface/search/type?&search_type=video&page_siz
 
 
 抓包内容的基本json结构（精简版）：
+```
 {
     data:{
         result:[
@@ -36,6 +37,7 @@ https://api.bilibili.com/x/web-interface/search/type?&search_type=video&page_siz
         ]
     }
 }
+```
 
 ## 网址爬取
 
